@@ -1,0 +1,19 @@
+<p style="font-size: small;">
+  {{Subdeck}}
+</p>
+{{^Back}}
+ <br>{{Front}}
+{{/Back}}
+ <br>
+ <br>
+{{#Back}}
+ {{Front}}...?
+{{/Back}}
+<p style="font-size: small;">
+{^Back}}
+ {{#URL 1}}
+  <br>
+  <br>More info on back
+ {{/URL 1}}
+{{/Back}}
+</p>
